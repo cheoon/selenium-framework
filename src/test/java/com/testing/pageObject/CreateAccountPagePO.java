@@ -31,6 +31,7 @@ public class CreateAccountPagePO {
 
     // Initialise Web Elements to use Selenium - Stage 2
     public CreateAccountPagePO(WebDriver driver){
+
         PageFactory.initElements(driver, this);
     }
 
@@ -58,6 +59,7 @@ public class CreateAccountPagePO {
     }
 
     public void clickCreateAccountButton(){
+
         CreateAccountButton.click();
     }
 

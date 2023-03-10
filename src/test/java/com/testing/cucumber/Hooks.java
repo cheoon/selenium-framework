@@ -16,8 +16,8 @@ public class Hooks {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://demo-m2.bird.eu");
-        //driver.get("https://magento2-demo.magebit.com");
+        //driver.get("https://demo-m2.bird.eu");
+        driver.get("https://magento2-demo.magebit.com");
 
     }
 

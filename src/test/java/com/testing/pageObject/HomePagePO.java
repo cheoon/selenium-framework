@@ -23,7 +23,7 @@ public class HomePagePO {
 
     // Page Specific Methods
     public void clickCreateAccountLink(){
-       CreateAccountLink.click();
+        CreateAccountLink.click();
     }
 
     public void  clickSignInLink(){
@@ -31,16 +31,20 @@ public class HomePagePO {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
