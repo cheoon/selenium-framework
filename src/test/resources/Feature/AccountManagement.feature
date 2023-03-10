@@ -12,7 +12,7 @@ Feature: Account Management
 
     Examples:
       | firstname | lastname | email                 | password | confirmpassword |
-      | Danny     | Brown    | dannybrown1@gmail.com | London@1 | London@1        |
+      | Danny     | Brown    | dannybrown2@gmail.com | London@1 | London@1        |
 
 
   @Login
@@ -25,5 +25,5 @@ Feature: Account Management
 
     Examples:
       | email                 | password |
-      | dannybrown1@gmail.com | London@1 |
+      | dannybrown2@gmail.com | London@1 |
 
