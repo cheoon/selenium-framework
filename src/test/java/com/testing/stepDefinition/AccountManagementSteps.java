@@ -64,7 +64,6 @@ public class AccountManagementSteps {
     public void iClickOnSignIn() {
         LoginPagePO loginPagePO = new LoginPagePO(driver);
         loginPagePO.clickSignButton();
-
     }
 
 
