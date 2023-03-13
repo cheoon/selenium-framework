@@ -69,5 +69,10 @@ public class AccountManagementSteps {
 
     @Then("Error message should be displayed that account already exist")
     public void errorMessageShouldBeDisplayedThatAccountAlreadyExist() {
+        
+    }
+
+    @Then("An error message should displayed on page")
+    public void anErrorMessageShouldDisplayedOnPage() {
     }
 }

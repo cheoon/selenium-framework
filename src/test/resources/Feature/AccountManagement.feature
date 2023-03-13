@@ -39,3 +39,15 @@ Feature: Account Management
     Examples:
       | firstname | lastname | email                 | password | confirmpassword |
       | Danny     | Brown    | dannybrown2@gmail.com | London@1 | London@1        |
+
+  @UnregisteredLogin
+  Scenario Outline: Account Login - Unregistered customer should see an error message on the page
+    Given I am on login page
+    When I enter my "<email>" and "<password>"
+    And I click on sign in
+    Then An error message should displayed on page
+
+
+    Examples:
+      | email                 | password |
+      | dannybrown2@gmail.com | London@1 |
